@@ -28,4 +28,32 @@ public class Aluno {
 		
 		 this.telefones.add(new Telefone(ddd, telefone));
 	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getCpf() {
+		return cpf.getCpf();
+	}
+
+	public void setCpf(Cpf cpf) {
+		this.cpf = cpf;
+	}
+
+	public String getEmail() {
+		return email.getEndereco();
+	}
+
+	public void setEmail(Email email) {
+		this.email = email;
+	}
+
+	public List<Telefone> getTelefones() {
+		return telefones;
+	}
 }
