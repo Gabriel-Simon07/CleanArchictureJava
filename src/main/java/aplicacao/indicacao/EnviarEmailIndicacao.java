@@ -1,6 +1,6 @@
 package aplicacao.indicacao;
 
-import escola.Aluno;
+import br.com.alura.escola.dominio.aluno.Aluno;
 
 public interface EnviarEmailIndicacao {
 

@@ -1,6 +1,6 @@
 package br.com.alura.escola.infra.aluno;
 
-import escola.CifradorSenha;
+import br.com.alura.escola.CifradorSenha;
 
 public class CifradorSenhaMD5 implements CifradorSenha {
 

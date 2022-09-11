@@ -7,10 +7,10 @@ import java.util.List;
 
 import javax.naming.PartialResultException;
 
-import escola.Aluno;
-import escola.Cpf;
-import escola.RepositorioAluno;
-import escola.Telefone;
+import br.com.alura.escola.RepositorioAluno;
+import br.com.alura.escola.dominio.aluno.Aluno;
+import br.com.alura.escola.dominio.aluno.Cpf;
+import br.com.alura.escola.dominio.aluno.Telefone;
 
 public class RepositorioAlunosJDBC implements RepositorioAluno {
 

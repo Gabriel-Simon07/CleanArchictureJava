@@ -3,9 +3,9 @@ package br.com.alura.escola.infra.aluno;
 import java.util.ArrayList;
 import java.util.List;
 
-import escola.Aluno;
-import escola.Cpf;
-import escola.RepositorioAluno;
+import br.com.alura.escola.RepositorioAluno;
+import br.com.alura.escola.dominio.aluno.Aluno;
+import br.com.alura.escola.dominio.aluno.Cpf;
 
 public class RepositorioAlunosMemoria implements RepositorioAluno {
 
